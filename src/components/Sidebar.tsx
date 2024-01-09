@@ -1,4 +1,5 @@
 import React from "react";
+import { GoHome } from "react-icons/go";
 import { BiNotepad } from "react-icons/bi";
 import { IoGridOutline } from "react-icons/io5";
 import { CiDeliveryTruck } from "react-icons/ci";
@@ -45,12 +46,12 @@ const Sidebar: React.FC = () => {
             <FaAngleDown size={30} />
           </div>
         </div>
-        {/* <div className="space-y-2">
+        <div className="space-y-2">
           <button className="text-lg group p-3 flex items-center w-full font-medium cursor-pointer hover:text-white hover:bg-gray-700 rounded-lg transition gap-4">
             <GoHome size={25} />
             Home
           </button>
-        </div> */}
+        </div>
         <div className="space-y-2">
           <button className="text-lg group p-3 flex items-center w-full font-medium cursor-pointer hover:text-white hover:bg-gray-700 rounded-lg transition gap-4">
             <BiNotepad size={25} />
