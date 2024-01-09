@@ -83,7 +83,7 @@ const Sidebar: React.FC = () => {
           </button>
         </div>
         <div className="space-y-2">
-          <button className="text-lg group p-3 flex items-center w-full font-medium cursor-pointer hover:text-white hover:bg-gray-700 rounded-lg transition gap-4">
+          <button className="text-lg group p-3 flex items-center w-full font-medium cursor-pointer hover:text-white bg-gray-700 rounded-lg transition gap-4">
             <MdPayments size={25} />
             Payments
           </button>
